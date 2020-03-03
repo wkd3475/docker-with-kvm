@@ -26,31 +26,32 @@ Performance Comparison by Programming Language
 ----------------------------------
 ## TODO LIST
 + 실험 환경 구성
--[x] kvm 설치 (ubuntu18.04)
+<br/>
+- [x] kvm 설치 (ubuntu18.04)
 
--[x] api 서버 만들기
-    -[x] node.js(express) api 서버 만들기
-    -[x] golang api 서버 만들기
-    -[x] python(flask) api 서버 만들기
-    -[x] java(spring boot) api 서버 만들기
+- [x] api 서버 만들기
+    - [x] node.js(express) api 서버 만들기
+    - [x] golang api 서버 만들기
+    - [x] python(flask) api 서버 만들기
+    - [x] java(spring boot) api 서버 만들기
 
--[x] 테스트용 클라이언트 만들기
+- [x] 테스트용 클라이언트 만들기
 
--[x] Dockerfile 만들기
-    -[x] node.js(express)
-    -[x] golang
-    -[x] python(flask)
-    -[x] java(spring boot)
+- [x] Dockerfile 만들기
+    - [x] node.js(express)
+    - [x] golang
+    - [x] python(flask)
+    - [x] java(spring boot)
 
--[ ] 데이터 추출하기
-    -[ ] Execution time 추출
-    -[ ] CPU usage 추출(mpstat 사용 예정)
-    -[ ] Disk I/O 추출
-    -[ ] Network Throughput 추출(iperf 사용 예정)
+- [ ] 데이터 추출하기
+    - [ ] Execution time 추출
+    - [ ] CPU usage 추출(mpstat 사용 예정)
+    - [ ] Disk I/O 추출
+    - [ ] Network Throughput 추출(iperf 사용 예정)
 
--[ ] api 기능 추가하기
-    -[ ] I/O 처리가 포함된 api
-    -[ ] [나중에 할 일]
+- [ ] api 기능 추가하기
+    - [ ] I/O 처리가 포함된 api
+    - [ ] [나중에 할 일]
     
 + 실험 설계
 <br/>
