@@ -6,7 +6,7 @@ Performance Comparison by Programming Language
 
 [1. 목표](#목표)
 
-[2. 프로그래밍 언어(프레임워크) 종류 및 특징](#프로그래밍-언어(프레임워크)-종류-및-특징)
+[2. 프로그래밍 언어 종류 및 특징](#프로그래밍-언어-종류-및-특징)
 
 [3. TODO-LIST](#todo-list)
 
@@ -16,7 +16,7 @@ Performance Comparison by Programming Language
 2. host에 kvm으로만 서버를 구성한 것과 kvm과 docker container를 함께 이용해 구성한 것의 성능 차이를 분석한다.
 3. kvm과 docker를 같이 사용할 때 생기는 문제점 또는 성능 향상을 할 수 있는 부분이 있는지 찾아본다.
 ----------------------------------
-## 프로그래밍 언어(프레임워크) 종류 및 특징
+## 프로그래밍 언어 종류 및 특징
 특징 정리는 추후에 할 예정
 1. node.js - express  
 2. golang  
