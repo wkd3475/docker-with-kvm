@@ -18,10 +18,10 @@ Performance Comparison by Programming Language
 ----------------------------------
 ## 프로그래밍 언어(프레임워크) 종류 및 특징
 <TODO>특징 정리는 추후에 할 예정
-0. node.js - express  
-0. golang  
-0. python - flask  
-0. java - spring boot  
+1. node.js - express  
+2. golang  
+3. python - flask  
+4. java - spring boot  
 
 ----------------------------------
 ## TODO LIST
