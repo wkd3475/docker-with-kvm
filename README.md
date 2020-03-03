@@ -1,13 +1,13 @@
 # 프로그래밍 언어별 성능 비교
-<br/>
+
 Performance Comparison by Programming Language
-<br/><br/>
+
 목차
-<br/>
+
 [1. 목표](#목표)
-<br/>
+
 [2. 프로그래밍 언어(프레임워크) 종류 및 특징](#프로그래밍-언어(프레임워크)-종류-및-특징)
-<br/>
+
 [3. TODO-LIST](#todo-list)
 
 ---
@@ -17,7 +17,7 @@ Performance Comparison by Programming Language
 3. kvm과 docker를 같이 사용할 때 생기는 문제점 또는 성능 향상을 할 수 있는 부분이 있는지 찾아본다.
 ----------------------------------
 ## 프로그래밍 언어(프레임워크) 종류 및 특징
-<TODO>특징 정리는 추후에 할 예정
+특징 정리는 추후에 할 예정
 1. node.js - express  
 2. golang  
 3. python - flask  
@@ -26,8 +26,7 @@ Performance Comparison by Programming Language
 ----------------------------------
 ## TODO LIST
 + 실험 환경 구성
-<br/>
-- [x] kvm 설치 (ubuntu18.04)
+- [x] kvm 설치(ubuntu18.04)
 
 - [x] api 서버 만들기
     - [x] node.js(express) api 서버 만들기
@@ -51,8 +50,12 @@ Performance Comparison by Programming Language
 
 - [ ] api 기능 추가하기
     - [ ] I/O 처리가 포함된 api
-    - [ ] [나중에 할 일]
-    
+    - [ ] 나중에 할 일
+
+
+
 + 실험 설계
-<br/>
-[나중에 할 일]
+
+  
+
+  나중에 할 일
