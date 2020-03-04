@@ -11,6 +11,7 @@
 	<groupId>com.exmple</groupId>
 	<artifactId>java-test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>java-test</name>
 	<description>Demo project for Spring Boot</description>
 

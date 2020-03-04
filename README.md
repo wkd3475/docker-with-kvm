@@ -40,7 +40,7 @@ Performance Comparison by Programming Language
     - [x] node.js(express)
     - [x] golang
     - [x] python(flask)
-    - [ ] java(spring boot)
+    - [x] java(spring boot)
 
 - [ ] 데이터 추출하기
     - [ ] Execution time 추출
