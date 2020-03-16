@@ -47,11 +47,11 @@ const client = new Client();
 
 let startTime = new Date().getTime();
 for (var i=1; i<REQUEST_NUM; i++) {
-	client.get("http://localhost:3001/api/test/"+LOAD_STRENGTH, (data, response) => {
+	client.get("http://localhost:"+PORT_NUM+"/api/cpu/"+LOAD_STRENGTH, (data, response) => {
 	});
 }
 
-client.get("http://localhost:3001/api/test/"+LOAD_STRENGTH, (data, response) => {
+client.get("http://localhost:"+PORT_NUM+"/api/cpu/"+LOAD_STRENGTH, (data, response) => {
 	let endTime = new Date().getTime();
 	console.log("total time : "+(endTime-startTime));
 });
