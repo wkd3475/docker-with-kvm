@@ -2,7 +2,7 @@ const express = require("express");
 const sleep = require('sleep');
 const app = express();
 
-app.get("/api/test/:id", (req, res) => {
+app.get("/api/cpu/:id", (req, res) => {
 	let result = 0;
 	for (let i=0; i<parseInt(req.params.id); i++) {
 		result = result + 1;

@@ -14,7 +14,7 @@ class Test(Resource):
             result = result + 1
         return result
 
-api.add_resource(Test, '/api/test/<int:val>')
+api.add_resource(Test, '/api/cpu/<int:val>')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3002)

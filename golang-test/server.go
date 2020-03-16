@@ -21,7 +21,7 @@ func Test(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 
 func main() {
 	router := httprouter.New()
-	router.GET("/api/test/:id", Test)
+	router.GET("/api/cpu/:id", Test)
 
 	log.Fatal(http.ListenAndServe(":3001", router))
 }

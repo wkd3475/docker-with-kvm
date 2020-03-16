@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class controller {
-	@RequestMapping("/api/test/{id}")
+	@RequestMapping("/api/cpu/{id}")
 	public String getTest(@PathVariable String id) {
 		long result = 0;
 		long num = Long.parseLong(id);
