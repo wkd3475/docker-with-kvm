@@ -1,3 +1,11 @@
+if (process.argv.length!=3) {
+	console.log("you need argvs");
+	console.log("ex) node server.js <port>");
+	process.exit();
+}
+
+const PORT_NUM = process.argv[2];
+
 const express = require("express");
 const fs = require('fs');
 const app = express();
@@ -63,4 +71,4 @@ app.get("/api/io/:id", (req, res) => {
 	res.send([req.params.id]);
 });
 
-app.listen(3000, () => console.log('start'));
+app.listen(PORT_NUM, () => console.log('start'));
