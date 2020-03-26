@@ -1,16 +1,17 @@
-if (process.argv.length!=3) {
+if (process.argv.length!=4) {
 	console.log("add file name");
-	console.log("node json_request_test.js <file_name>");
+	console.log("node json_request_test.js <file_name> <stress>");
 	process.exit();
 }
 
 let request = require('request');
 let fs = require('fs');
 let file_name = process.argv[2];
+let stress = process.argv[3];
 let REQUEST_NUM = 1000;
 
 //메모리 캐싱이 일어남
-var jsonData = JSON.parse(fs.readFileSync('bigfile100.json'));
+var jsonData = JSON.parse(fs.readFileSync('bigfile'+stress+'.json'));
 
 let startTime = new Date().getTime();
 for (var i=1; i<REQUEST_NUM; i++) {
