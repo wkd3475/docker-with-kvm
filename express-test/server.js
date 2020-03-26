@@ -9,7 +9,7 @@ app.get("/api/cpu/:id", (req, res) => {
 	let result = 0;
 	for (let i=0; i<parseInt(req.params.id); i++) {
 		//result = result + 1;
-		result = ((result + Date.now())*Math.sqrt(Date.now()))%123456789;
+		result = ((result + Math.random()*10000)*Math.sqrt(Math.random()*10000))%123456789;
 	}
 	res.send([result]);
 });
