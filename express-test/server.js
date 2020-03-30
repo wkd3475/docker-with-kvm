@@ -14,12 +14,14 @@ let bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 app.get("/api/cpu/:id", (req, res) => {
+	let startTime = new Date().getTime();
 	let result = 0;
 	for (let i=0; i<parseInt(req.params.id); i++) {
 		//result = result + 1;
 		result = ((result + Math.random()*10000)*Math.sqrt(Math.random()*10000))%123456789;
 	}
-	res.send([result]);
+	let endTime = new Date().getTime();
+	res.send([endTime-startTime]);
 });
 
 app.get("/api/makefile/:id", (req, res) => {
