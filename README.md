@@ -2,7 +2,8 @@
 
 Performance Comparison by Programming Language && (base vs docker vs kvm + docker)
 
-
+논문
+**장용현**, 이재학, 유헌창, "KVM 가상머신에서 도커를 사용하는 시스템의 호스트 메모리 부하에 따른 task 처리 성능 분석", 한국정보처리학회 춘계학술발표대회 논문집, Vol.27, Issue 1, 2020, pp.20-23.
 
 목차
 
@@ -48,7 +49,7 @@ Performance Comparison by Programming Language && (base vs docker vs kvm + docke
     - [x] java(spring boot)
 
 - [ ] 데이터 추출하기
-    - [ ] Execution time 추출
+    - [x] Execution time 추출
     - [ ] CPU usage 추출(mpstat 사용 예정)
     - [ ] Disk I/O 추출
     - [ ] Network Throughput 추출(iperf 사용 예정)
