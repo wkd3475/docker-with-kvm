@@ -15,8 +15,6 @@ if (Number(process.argv[3]<0) || Number(process.argv[3])>Math.pow(2, 63)) {
 	LOAD_STRENGTH = Number(process.argv[3]);
 }
 
-console.log("load_strength :"+LOAD_STRENGTH);
-
 const Client = require('node-rest-client').Client;
 const client = new Client();
 const fs = require('fs');
